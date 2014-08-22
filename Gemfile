@@ -15,6 +15,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'therubyracer',  platforms: :ruby
 gem 'haml-rails'
 gem 'font-awesome-rails'
+gem 'rails_12factor'
 
 group :development, :test do
   gem 'pry'

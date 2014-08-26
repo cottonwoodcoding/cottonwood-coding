@@ -61,6 +61,8 @@ GEM
       activesupport (>= 4.0.1)
       haml (>= 3.1, < 5.0)
       railties (>= 4.0.1)
+    heroku-deflater (0.5.3)
+      rack (>= 1.4.5)
     hike (1.2.3)
     i18n (0.6.11)
     jquery-rails (3.1.1)
@@ -85,7 +87,6 @@ GEM
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
-    rack-zippy (1.2.1)
     rails (4.1.4)
       actionmailer (= 4.1.4)
       actionpack (= 4.1.4)
@@ -165,10 +166,10 @@ DEPENDENCIES
   debugger
   font-awesome-rails
   haml-rails
+  heroku-deflater
   jquery-rails
   pg
   pry
-  rack-zippy
   rails (= 4.1.4)
   rails_12factor
   sass-rails (>= 3.2)

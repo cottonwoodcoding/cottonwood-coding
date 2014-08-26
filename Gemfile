@@ -15,7 +15,6 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'therubyracer',  platforms: :ruby
 gem 'haml-rails'
 gem 'font-awesome-rails'
-gem 'rack-zippy'
 
 group :development, :test do
   gem 'pry'
@@ -29,6 +28,7 @@ group :production do
   gem 'unicorn'
   gem 'pg'
   gem 'rails_12factor'
+  gem 'heroku-deflater'
 end
 
 group :doc do

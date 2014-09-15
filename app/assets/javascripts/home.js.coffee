@@ -14,3 +14,7 @@
 
     $(".navbar-collapse ul li a").click ->
       $(".navbar-toggle:visible").click()
+
+    $('.not_finished').click (e) ->
+      e.preventDefault()
+      bootbox.alert('This site is currently under constuction. Please check back later.')

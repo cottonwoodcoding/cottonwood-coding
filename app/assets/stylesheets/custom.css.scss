@@ -52,3 +52,14 @@
 .font-l {
   font-family: 'Novecento-Light';
 }
+
+.bootbox {
+  .modal-content {
+    background-color: lightgray;
+  }
+  .modal-footer {
+    button {
+      background-color: black;
+    }
+  }
+}

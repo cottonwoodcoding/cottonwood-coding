@@ -40,6 +40,9 @@
       #carousel-example-generic.carousel.slide{"data-ride" => "carousel"}
         .carousel-inner
           .item.active
+            %a.not_finished{href: '#', target: '_blank'}
+              %img{:alt => "...", :src => image_path('clear-innovations-screen.png')}
+          .item
             %a{href: 'http://www.moonlightgardensupply.com', target: '_blank'}
               %img{:alt => "...", :src => image_path('moonlight-screen.png')}
           .item

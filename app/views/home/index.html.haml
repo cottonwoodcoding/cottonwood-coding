@@ -40,6 +40,9 @@
       #carousel-example-generic.carousel.slide{"data-ride" => "carousel"}
         .carousel-inner
           .item.active
+            %a{href: 'http://www.decolsspeedshop.com', target: '_blank'}
+              %img{:alt => "...", :src => image_path('decols-screen.png')}
+          .item
             %a.not_finished{href: '#', target: '_blank'}
               %img{:alt => "...", :src => image_path('clear-innovations-screen.png')}
           .item
